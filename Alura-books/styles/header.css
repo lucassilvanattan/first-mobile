@@ -18,6 +18,7 @@
 .container {
     display: flex;
     align-items: center;
+    
 }
 
 .container__imagem{
@@ -28,15 +29,34 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
+}
+
+.container__botao {
+    display: none;
 }
 
 .container__botao:checked~.lista-menu{
     display: block;
 }
 
-.listta-menu__titulo,
+
+
+.lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
     background-color: var(--cor-branca);
 }
+
+.lista-menu__link {
+    cursor: pointer;
+    color: var(--azul-degrade);
+    text-transform: uppercase;
+}
+
+.lista-menu__titulo {
+    font-weight: 700;
+    color: var(--laranja);
+}
+
 
