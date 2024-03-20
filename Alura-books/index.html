@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,5 +55,35 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua primeira Leitura?">
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <div class="swiper-pagination"></div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./img/Gestão.svg" alt="imagem carrossel sobre gestao"></div>
+              <div class="swiper-slide"><img src="./img/Nodejs.svg" alt="imagem carrossel sobre node js"></div>
+              <div class="swiper-slide"><img src="./img/Liderança.svg" alt="imagem carrossel sobre liderança"></div>
+              <div class="swiper-slide"><img src="./img/Javascript.svg" alt="imagem carrossel sobre javascript"></div>
+              <div class="swiper-slide"><img src="./img/Portugol.svg" alt="imagem carrossel sobre portugol"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+
+        });
+
+    </script>
 </body>
 </html>

@@ -40,7 +40,9 @@
     display: block;
 }
 
-
+.container__botao:checked~.cabecalho_menu-hamburguer{
+    background-color: var(--azul-degrade);
+}
 
 .lista-menu__titulo,
 .lista-menu__item {
