@@ -2,13 +2,18 @@
 @import url("./styles/banner.css");
 @import url("./styles/carrossel.css");
 @import url("./styles/carrossel2.css");
+@import url("./styles/contato.css");
+@import url("./styles/footer.css");
+
 :root{
     --cor-de-fundo: #EBECEE;
     --cor-branca: #FFFFFF;
     --laranja: #EB9B00;
     --azul-degrade: #002F52;
     --fonte-principal: "Poppins";
-    
+    --azul-degra: linear-gradient(97.54deg, #002F52 35.49%, #1b679e 165.37%);
+    --branco-rodape: rgba(249, 249, 249, 1);
+
 }
 
 .cabecalho {

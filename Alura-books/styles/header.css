@@ -61,4 +61,8 @@
     color: var(--laranja);
 }
 
+@media screen and (min-width: 1024) {
+
+}
+
 

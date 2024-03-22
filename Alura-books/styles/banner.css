@@ -1,7 +1,4 @@
 .banner {
-    background-color: var(--azul-degrade);
-    color: var(--cor-branca);
-    font-family: var(--fonte-principal);
     text-align: center;
     padding: 2.5em 2em;
 }
@@ -31,6 +28,52 @@
     font-weight: 400;
     text-align: center;
     color: var(--cor-branca);
-    background: url(../img/Pesquisa.svg) no-repeat;
+    background: url(../img/Pesquisa.svg);
+    background-repeat: no-repeat;
     background-position: 0.8em;
+}
+
+/* Banner 2 */
+
+.banner__fundo{ 
+    background-color: var(--azul-degrade);
+    color: var(--cor-branca);
+    font-family: var(--fonte-principal);
+}
+
+.banner2 {
+    padding: 1.5em 1em;
+
+}
+
+.banner2__filho1{
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.banner2__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2__lista div {
+    margin-bottom: 1em;
+}
+
+.banner2__topicos{
+    text-decoration: none;
+    color: var(--cor-branca);
+    background-color: var(--laranja);
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.banner2__item{
+    margin: 1.5em 0.5em;
 }
