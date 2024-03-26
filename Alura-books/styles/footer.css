@@ -7,9 +7,26 @@ hr{
 }
 
 .rodape__titulo{
-    padding-bottom: 1.5em;
-    padding-left: 1.5em;
-    padding-top: 1em;
+
     font-size: 16px;
     font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .rodape{
+        padding: 2em;
+    }
+    .lista-rodape__item__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+    
 }
