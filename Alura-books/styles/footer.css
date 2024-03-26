@@ -11,14 +11,21 @@ hr{
     font-size: 16px;
     font-weight: 400;
 }
+.lista-rodape {
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
     .rodape{
         display: flex;
         justify-content: space-around;
     }
+    .lista-rodape{
+        display: block;
+    }
     .rodape__titulo {
         font-size: 24px;
+        font-weight: 400;
     }
 
     .rodape{
@@ -26,7 +33,18 @@ hr{
     }
     .lista-rodape__item__link{
         text-decoration: none;
-        color: var(--preto);
+        color: var(--cinza);
+        margin-left: 0.5em;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .lista-rodape__item{
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+    .lista-rodape__titulo{
+        color: var(--cinza-titulo);
     }
     
 }
