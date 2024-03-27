@@ -90,9 +90,11 @@
     margin-right: 0.5em;
 }
 
+
+
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {
-        font-size: 36px;
+        font-size: 26px;
     }
     .swiper-pagination{
         margin: 2em 0 3em 0;
@@ -112,6 +114,38 @@
         width: 40%;
         margin: 2em auto;
     }
+}
 
-      
+
+@media screen and (min-width: 1728px) {
+    .carrossel__titulo{
+        font-size: 32px;
+    }
+    .carrossel__container{
+        display: flex;
+        flex-direction: row;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+    .swiper-pagination {
+        margin: 1em 0;
+    
+    }
+
+    .swiper{
+        width: 50%;
+    }
+    .botoes__ancora{ 
+        margin-left: 10.5em;
+    }
+    
+    .card{
+        margin-top: 3em;
+    }
+    .descricao__titulo{
+        font-size: 32px;
+    }
+
+    
+
 }
