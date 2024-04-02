@@ -8,7 +8,7 @@
 :root{
     --cor-de-fundo: #EBECEE;
     --cor-branca: #FFFFFF;
-    --laranja: #EB9B00;
+    --laranja: #070605;
     --azul-degrade: #002F52;
     --fonte-principal: "Poppins";
     --azul-degra: linear-gradient(97.54deg, #002F52 35.49%, #1b679e 165.37%);
@@ -17,9 +17,6 @@
     --preto: rgba(0, 0, 0, 1);
     --cinza: rgba(71, 70, 70, 1);
     --cinza-titulo: rgba(133, 133, 133, 1);
-
-
-
 
 }
 
